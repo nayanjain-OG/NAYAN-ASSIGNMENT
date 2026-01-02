@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors Demo</title>
+  <link rel="stylesheet" href="ext2.2.css">
+</head>
+<body>
+  <header id="main-header">
+    <h1>CSS Selectors Demonstration</h1>
+    <p class="intro">Learn how different selectors style elements.</p>
+  </header>
+   <main>
+    <section class="highlight">
+      <h2>Class Selector</h2>
+      <p>Elements with the same class can share styles. This paragraph uses the <code>.highlight</code> class.</p>
+    </section>
+    <section id="unique-section">
+      <h2>ID Selector</h2>
+      <p>This section is styled using an <code>#id</code> selector. IDs are unique for one element.</p>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Descendant Selector</h2>
+        <p>Only paragraphs <strong>inside</strong> <code>.container</code> are affected by the descendant selector.</p>
+      </div>
+      <p>This paragraph is <strong>outside</strong> the container, so it is not affected.</p>
+    </section>
+
+    <section>
+      <h2>Group Selector</h2>
+      <p>Group selectors allow you to apply the same style to multiple elements at once.</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 CSS Selectors Demo</p>
+  </footer>
+</body>
+</html>
